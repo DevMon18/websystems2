@@ -1,4 +1,4 @@
-# websystems2
+# AMPINGLAB a COMPUTER LABORATORY MANAGEMENT SYSTEM
 A websystems for Computer Laborator Management System for EVSU BSIT students
 
 
