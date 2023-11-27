@@ -17,7 +17,7 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
   http://php.net/smtp-port<br>
   smtp_port=587<br>
   sendmail_from = your_email_address_here<br>
-  sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+  sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"<br><br>
 
 
 2. Now, go the (C:\xampp\sendmail) and open the sendmail configuration setting file then find sendmail by scrolling down or press ctrl+f to search it directly then find the following lines and pass these values. Remember, there may be a semicolon ; at the start of each line, simply remove the semicolon from each line which is given below.
@@ -29,7 +29,7 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
   debug_logfile=debug.log<br>
   auth_username=your_email_address_here<br>
   auth_password=your_password_here<br>
-  force_sender=your_email_address_here (it's optional)
+  force_sender=your_email_address_here (it's optional)<br><br>
 
 ### Note: 
 Google removed the <b>“Less secure apps”</b>feature on May 30, 2022. So you need to do some extra steps and make changes in the files to send mail from localhost using Gmail.
