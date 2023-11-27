@@ -10,4 +10,5 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
     Reference:  https://github.com/PHPMailer/PHPMailer
                 https://www.sourcecodester.com/tutorials/php/12616/php-send-mail-gmail-using-phpmailer.html
   
-    #### Composer Reference: https://getcomposer.org/download/
+    #### Composer
+                Reference: https://getcomposer.org/download/
