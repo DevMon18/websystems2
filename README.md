@@ -6,7 +6,7 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
 - Login and Signup with verfication code
 - Dashboard with dark mode feature
 - PC Check-ins and Checkouts
-##SMTP
+## SMTP
 1. Go to the (C:xampp\php) and open the PHP configuration setting file then find the [mail function] by scrolling down or simply press ctrl+f to search it directly then find the following lines and pass these values. Remember, there may be a semicolon ; at the start of each line, simply remove the semicolon from each line which is given below.
 
   [mail function]
@@ -28,7 +28,7 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
   auth_password=your_password_here
   force_sender=your_email_address_here (it's optional)
 
-###Note: 
+### Note: 
 Google removed the “Less secure apps” feature on May 30, 2022. So you need to do some extra steps and make changes in the files to send mail from localhost using Gmail.
 Instead of using your Google account password as auth_password in sendmail configuration file, you need to use an App password which is 16 characters long.
 
