@@ -7,8 +7,9 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
 - Dashboard with dark mode feature
 - PC Check-ins and Checkouts
   ### PHPMailer Verification
-    Reference:  https://github.com/PHPMailer/PHPMailer <br>
-                https://www.sourcecodester.com/tutorials/php/12616/php-send-mail-gmail-using-phpmailer.html
+    Reference:
+      https://github.com/PHPMailer/PHPMailer <br>
+      https://www.sourcecodester.com/tutorials/php/12616/php-send-mail-gmail-using-phpmailer.html
   
     #### Composer
                 Reference: https://getcomposer.org/download/
