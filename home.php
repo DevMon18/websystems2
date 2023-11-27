@@ -37,7 +37,7 @@ if($email != false && $password != false){
 <nav>
         <div class="logo-name">
             <div class="logo-image mt-3">
-                <img class="image ml-2" src="images/logo.png" alt="ads">
+                <img class="image ml-2" src="images/amp.png" alt="ads">
             </div>
 
             <span class="logo_name mt-3">AmpingLab</span>
