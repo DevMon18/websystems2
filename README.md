@@ -9,6 +9,7 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
 ## SMTP
 1. Go to the (C:xampp\php) and open the PHP configuration setting file then find the [mail function] by scrolling down or simply press ctrl+f to search it directly then find the following lines and pass these values. Remember, there may be a semicolon ; at the start of each line, simply remove the semicolon from each line which is given below.
 
+<div style="border 1px solid">
   [mail function]
   For Win32 only.<br>
   http://php.net/smtp<br>
@@ -17,9 +18,11 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
   smtp_port=587<br>
   sendmail_from = your_email_address_here<br>
   sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+</div>
 
 2. Now, go the (C:\xampp\sendmail) and open the sendmail configuration setting file then find sendmail by scrolling down or press ctrl+f to search it directly then find the following lines and pass these values. Remember, there may be a semicolon ; at the start of each line, simply remove the semicolon from each line which is given below.
 
+<div style="border 1px solid">
   smtp_server=smtp.gmail.com<br>
   smtp_port=587<br>
   error_logfile=error.log<br>
@@ -27,6 +30,7 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
   auth_username=your_email_address_here<br>
   auth_password=your_password_here<br>
   force_sender=your_email_address_here (it's optional)
+  </div>
 
 ### Note: 
 Google removed the <b>“Less secure apps”</b>feature on May 30, 2022. So you need to do some extra steps and make changes in the files to send mail from localhost using Gmail.
