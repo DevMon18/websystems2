@@ -29,7 +29,7 @@ A websystems for Computer Laborator Management System for EVSU BSIT students
   force_sender=your_email_address_here (it's optional)
 
 ### Note: 
-Google removed the “Less secure apps” feature on May 30, 2022. So you need to do some extra steps and make changes in the files to send mail from localhost using Gmail.
+Google removed the <b>“Less secure apps”</b>feature on May 30, 2022. So you need to do some extra steps and make changes in the files to send mail from localhost using Gmail.
 Instead of using your Google account password as auth_password in sendmail configuration file, you need to use an App password which is 16 characters long.
 
 To create an app password, go to manage your google account > Click Security > Under “Signing in to Google,” select App passwords > Select App & Device, and then you’ll get a 16-character code and this is your password. For more details about creating App
