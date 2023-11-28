@@ -15,9 +15,9 @@
         --black-light-color: #707070;
         --border-color: #e6e5e5;
         --toggle-color: #DDD;
-        --box1-color: #4DA3FF;
-        --box2-color: #FFE6AC;
-        --box3-color: #E7D1FC;
+        --box1-color: #90faa2;
+        --box2-color: rgb(172, 148, 243);
+        --box3-color: #fea58d;
         --title-icon-color: #fff;
         
         /* ====== Transition ====== */
@@ -203,7 +203,12 @@
     body.dark .switch:before{
         left: 20px;
     }
-
+    .container .text h4 {
+        color: var(--text-color);
+    }.table_custom    { 
+        --bs-table-bg: transparent !important; 
+    }
+   
     .dashboard{
         position: relative;
         left: 250px;
@@ -365,12 +370,16 @@
         height:50px;
         width:50px;
         cursor: pointer;
+        color: var(--black-light-color);   
         }
     table th .teachers-table img{
         justify-content: center;
         height: 120px;
         width: 100px;
 
+    }
+    img:hover{
+       color:var(--black-light-color);
     }
     @media (max-width: 1000px) {
         nav{

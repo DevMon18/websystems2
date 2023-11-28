@@ -115,10 +115,10 @@ if($email != false && $password != false){
             </div>
 
                 <div class="container">
-                    <h3 class="mb-4">Seat Map</h3>
+                    <h3 class="text mb-4">Seat Map</h3>
                     <div id="seat-map">
                         <div class="table-responsive">
-                            <table class="table table-borderless table-striped mt-5">
+                            <table class="table table-sm table_custom table-condensed  mt-5">
                                 <thead>
                                     <tr>
                                       <th></th>
@@ -140,22 +140,53 @@ if($email != false && $password != false){
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="seat-list text-center">
-                                                <img onclick="showForm(1)" src="\ALab\images\pc.png" class="img-fluid">   
+                                            <div class="seat-list text text-center ">
+                                                <img onclick="showForm(1)" src="\ALab\images\pc.png" class="img-fluid ">   
                                                 <h4>PC1</h4>
                                             </div>
                                             
                                         </td>
                                         <td>
-                                        <div class="seat-list text-center">
+                                        <div class="seat-list text text-center">
                                                 <img onclick="showForm(2)" src="\ALab\images\pc.png" class="img-fluid">   
                                                 <h4>PC2</h4>
                                             </div>
                                         </td>
                                         <td>
-                                        <div class="seat-list text-center">
+                                        <div class="seat-list text text-center">
                                                 <img onclick="showForm(3)" src="\ALab\images\pc.png" class="img-fluid">   
                                                 <h4>PC3</h4>
+                                            </div>
+                                        </td>
+                                        <td> 
+                                        <div class="seat-list text text-center">
+                                                <img onclick="showForm(4)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <h4>PC4</h4>
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                        <div class="seat-list text text-center">
+                                                <img onclick="showForm(5)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <h4>PC5</h4>
+                                            </div>
+                                        </td>
+                                        <td>
+                                        <div class="seat-list text text-center">
+                                                <img onclick="showForm(6)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <h4>PC6</h4>
+                                            </div>
+                                        </td>
+                                        <td>
+                                        <div class="seat-list text text-center ">
+                                                <img onclick="showForm(7)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <h4>PC7</h4>
+                                            </div>
+                                        </td>
+                                        <td>
+                                        <div class="seat-list text text-center">
+                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <h4>PC8</h4>
                                             </div>
                                         </td>
                                     </tr>
