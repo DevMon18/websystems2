@@ -127,7 +127,7 @@ if($email != false && $password != false){
                                       <th></th>
                                       <th>
                                         <div class="teachers-table text-center">
-                                      <img onclick="showForm()" src="\ALab\images\insimage.png" class="img-fluid"> 
+                                      <img onclick="showForm()" src="images\insimage.png" class="img-fluid"> 
                                         <h4 class="">Teachers Table</h4>
                                         </div>
                                       </th>
@@ -141,7 +141,7 @@ if($email != false && $password != false){
                                     <tr>
                                         <td>
                                             <div class="seat-list text text-center ">
-                                                <img onclick="showForm(1)" src="\ALab\images\pc.png" class="img-fluid ">   
+                                                <img onclick="showForm(1)" src="images\pc.png" class="img-fluid ">   
                                                 <h4>PC1</h4>
                                             </div>
                                             
