@@ -85,13 +85,13 @@
     nav .logo-image{
         display: flex;
         justify-content: right;
-        min-width: 80px;
+        min-width: 70px;
     }
     nav .logo-image img{
         width: 45px;
         object-fit: cover;
         border-radius: 50%;
-        margin-left:35px;
+        margin-left:25px;
     }
 
     nav .logo-name .logo_name{

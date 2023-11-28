@@ -21,7 +21,7 @@ if($email == false){
                     <h2 class="text-center">Code Verification</h2>
                     <?php 
                     if(isset($_SESSION['info'])){
-                        ?>
+                        ?>  
                         <div class="alert alert-success text-center" style="padding: 0.4rem 0.4rem">
                             <?php echo $_SESSION['info']; ?>
                         </div>

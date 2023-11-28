@@ -30,14 +30,14 @@ if($email != false && $password != false){
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css?v=1">
 
 </head>
 <body>
 <nav>
         <div class="logo-name">
             <div class="logo-image mt-3">
-                <img class="image ml-2" src="images/amp.png" alt="ads">
+                <img class="" src="images/amp.png" alt="ads">
             </div>
 
             <span class="logo_name mt-3">AmpingLab</span>
@@ -158,198 +158,6 @@ if($email != false && $password != false){
                                                 <h4>PC3</h4>
                                             </div>
                                         </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(4)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC4</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(5)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC5</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(6)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC6</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(7)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC7</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC8</h4>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC9</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC10</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC11</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC12</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC13</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC14</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC15</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC16</h4>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC17</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC18</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC19</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC20</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC21</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC22</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC23</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC24</h4>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC25</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC26</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC27</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC28</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC29</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC30</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC31</h4>
-                                            </div>
-                                        </td>
-                                        <td>
-                                        <div class="seat-list text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
-                                                <h4>PC32</h4>
-                                            </div>
-                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -392,5 +200,5 @@ if($email != false && $password != false){
             </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="scripts.js"></script>
 </html>
