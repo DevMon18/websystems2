@@ -148,44 +148,44 @@ if($email != false && $password != false){
                                         </td>
                                         <td>
                                         <div class="seat-list text text-center">
-                                                <img onclick="showForm(2)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <img onclick="showForm(2)" src="images/pc.png" class="img-fluid">   
                                                 <h4>PC2</h4>
                                             </div>
                                         </td>
                                         <td>
                                         <div class="seat-list text text-center">
-                                                <img onclick="showForm(3)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <img onclick="showForm(3)" src="images\pc.png" class="img-fluid">   
                                                 <h4>PC3</h4>
                                             </div>
                                         </td>
                                         <td> 
                                         <div class="seat-list text text-center">
-                                                <img onclick="showForm(4)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <img onclick="showForm(4)" src="images\pc.png" class="img-fluid">   
                                                 <h4>PC4</h4>
                                             </div>
                                         </td>
                                         <td></td>
                                         <td>
                                         <div class="seat-list text text-center">
-                                                <img onclick="showForm(5)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <img onclick="showForm(5)" src="images\pc.png" class="img-fluid">   
                                                 <h4>PC5</h4>
                                             </div>
                                         </td>
                                         <td>
                                         <div class="seat-list text text-center">
-                                                <img onclick="showForm(6)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <img onclick="showForm(6)" src="images\pc.png" class="img-fluid">   
                                                 <h4>PC6</h4>
                                             </div>
                                         </td>
                                         <td>
                                         <div class="seat-list text text-center ">
-                                                <img onclick="showForm(7)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <img onclick="showForm(7)" src="images\pc.png" class="img-fluid">   
                                                 <h4>PC7</h4>
                                             </div>
                                         </td>
                                         <td>
                                         <div class="seat-list text text-center">
-                                                <img onclick="showForm(8)" src="\ALab\images\pc.png" class="img-fluid">   
+                                                <img onclick="showForm(8)" src="images\pc.png" class="img-fluid">   
                                                 <h4>PC8</h4>
                                             </div>
                                         </td>
