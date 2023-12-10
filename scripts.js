@@ -36,10 +36,11 @@ function showForm(seatNumber) {
     modal.show();
 }
 function submitForm(seatNumber) {
-    var fullName = document.getElementById("fullname-1").value;
-    var studentID = document.getElementById("studentid-1").value;
-    var email = document.getElementById("email-1").value;
-    var role = document.getElementById("role-1").value;
+    var fullName = document.getElementById("fullname").value;
+    var studentID = document.getElementById("studentid").value;
+    var email = document.getElementById("emai1").value;
+    var contact = document.getElementById("contact").value;
+    var role = document.getElementById("role").value;
     var feedback = document.getElementById("feedback-message").value;
 
     // Perform form validation
@@ -53,6 +54,7 @@ function submitForm(seatNumber) {
         fullName: fullName,
         studentID: studentID,
         email: email,
+        contact:contact,
         role: role,
         feedback: feedback
     };
@@ -74,13 +76,21 @@ xhr.onreadystatechange = function() {
 xhr.send(JSON.stringify(formData));
 }
 
-function updateSeatAvailability(seatNumber) {
-// Perform the necessary logic to update the seat availability
-// For example, you can change the seat color or mark it as unavailable
-// You can use JavaScript to modify the seat element based on the seatNumber parameter
-var seatElement = document.getElementById("seat-" + seatNumber);
-seatElement.classList.remove("available");
-seatElement.classList.add("unavailable");
+function updateSeatAvailability(seatNumber, isOccupied) {
+    // Get the seat element based on the seatNumber
+    var seatElement = document.getElementById("seat-" + seatNumber);
+
+    // Remove all possible classes to reset the seat appearance
+    seatElement.classList.remove("available", "occupied", "unavailable");
+
+    // Perform the necessary logic to update the seat availability
+    if (isOccupied) {
+        // Seat is occupied
+        seatElement.classList.add("occupied");
+    } else {
+        // Seat is available
+        seatElement.classList.add("available");
+    }
 }
 
 function closeFormModal() {

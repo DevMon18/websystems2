@@ -1,6 +1,7 @@
     /* ===== Google Font Import - Poppins ===== */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
     *{
+        scroll-behavior: smooth;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -9,7 +10,7 @@
 
     :root{
         /* ===== Colors ===== */
-        --primary-color: #0E4BF1;
+        --primary-color: white;
         --panel-color: #FFF;
         --text-color: #000;
         --black-light-color: #707070;
@@ -17,7 +18,7 @@
         --toggle-color: #DDD;
         --box1-color: #90faa2;
         --box2-color: rgb(172, 148, 243);
-        --box3-color: #fea58d;
+        --box3-color: #ff3700;
         --title-icon-color: #fff;
         
         /* ====== Transition ====== */
@@ -280,6 +281,7 @@
     .dashboard .dash-content{
         padding-top: 50px;
     }
+
     .dash-content .title{
         display: flex;
         align-items: center;
@@ -381,51 +383,48 @@
     img:hover{
        color:var(--black-light-color);
     }
-    @media (max-width: 1000px) {
-        nav{
+    
+    @media (min-width: 420px) and (max-width: 100px) {
+        /* Styles for screens up to 1000px wide */
+        nav {
             width: 73px;
         }
-        nav.close{
-            width: 250px;
+        nav.close {
+            width: 380px;
         }
-        nav .logo_name{
+        nav .logo_name {
             opacity: 0;
             pointer-events: none;
         }
-        nav.close .logo_name{
+        nav.close .logo_name {
             opacity: 1;
             pointer-events: auto;
         }
-        nav li a .link-name{
+        nav li a .link-name {
             opacity: 0;
             pointer-events: none;
         }
-        nav.close li a .link-name{
+        nav.close li a .link-name {
             opacity: 1;
             pointer-events: auto;
         }
-        nav ~ .dashboard{
+        nav ~ .dashboard {
             left: 73px;
             width: calc(100% - 73px);
         }
-        nav.close ~ .dashboard{
+        nav.close ~ .dashboard {
             left: 250px;
             width: calc(100% - 250px);
         }
-        nav ~ .dashboard .top{
+        nav ~ .dashboard .top {
             left: 73px;
             width: calc(100% - 73px);
         }
-        nav.close ~ .dashboard .top{
+        nav.close ~ .dashboard .top {
             left: 250px;
             width: calc(100% - 250px);
         }
-        .activity .activity-data{
-            overflow-X: scroll;
+        .activity .activity-data {
+            overflow-x: scroll;
         }
     }
-    .table tr td .seat-list img{
-        height:50px;
-        width:50px;
-        cursor: pointer;
-        }
