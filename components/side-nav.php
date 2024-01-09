@@ -17,7 +17,7 @@
                     <i class="uil uil-calendar-alt"></i>
                     <span class="link-name">Calendar</span>
                 </a></li>
-                <li><a href="">
+                <li><a href="./seatin.php">
                     <i class="uil uil-chart"></i>
                     <span class="link-name">Seat-History</span>
                 </a></li>

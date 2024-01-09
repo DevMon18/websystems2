@@ -14,7 +14,9 @@
 
     $email = "";
     $name = "";
+    $username = "";
     $errors = array();
+
 
     //if user signup button
     if(isset($_POST['signup'])){

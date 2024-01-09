@@ -1,5 +1,5 @@
 <div class="modal fade" id="seatModal" tabindex="-1" aria-labelledby="seatModalLabel" aria-hidden="true">
-    <form method="post" action="process.php">
+    <form method="post" action="seathistory.php">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -9,7 +9,7 @@
                 <div class="modal-body">
                     <fieldset>
                         <legend>Seat Check-in</legend>
-                        <input type="text" class="form-control mb-2" name="fullname" id="fullname-1" value="<?php echo $fetch_info['name']?>" Disabled>
+                        <input type="text" class="form-control mb-2" name="fullname" id="fullname-1" >
                         <input type="text" class="form-control mb-2" name="studentid" id="studentid-1" placeholder="Student ID" required>
                         <input type="text" class="form-control mb-2" name="email" id="email" placeholder="Email" required>
                         <input type="text" class="form-control mb-2" name="contact" id="contact" placeholder="Contact Number" required>
